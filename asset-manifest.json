@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.37c058b7.chunk.css",
-    "main.js": "/static/js/main.d2060b2c.chunk.js",
-    "main.js.map": "/static/js/main.d2060b2c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f603dc5c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f603dc5c.js.map",
-    "static/js/2.09a6a007.chunk.js": "/static/js/2.09a6a007.chunk.js",
-    "static/js/2.09a6a007.chunk.js.map": "/static/js/2.09a6a007.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.6e6b38bffb545c383c833e53b7bd4ec1.js": "/precache-manifest.6e6b38bffb545c383c833e53b7bd4ec1.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.37c058b7.chunk.css.map": "/static/css/main.37c058b7.chunk.css.map",
-    "static/js/2.09a6a007.chunk.js.LICENSE.txt": "/static/js/2.09a6a007.chunk.js.LICENSE.txt",
-    "static/media/cryptomonedas.png": "/static/media/cryptomonedas.36df2b1b.png",
-    "static/media/index.css": "/static/media/new-zealand-topography-from-above-2441454.74644af9.jpg"
+    "main.css": "/Crypto/static/css/main.f4ffc48e.chunk.css",
+    "main.js": "/Crypto/static/js/main.b82e35dc.chunk.js",
+    "main.js.map": "/Crypto/static/js/main.b82e35dc.chunk.js.map",
+    "runtime-main.js": "/Crypto/static/js/runtime-main.b49009fc.js",
+    "runtime-main.js.map": "/Crypto/static/js/runtime-main.b49009fc.js.map",
+    "static/js/2.09a6a007.chunk.js": "/Crypto/static/js/2.09a6a007.chunk.js",
+    "static/js/2.09a6a007.chunk.js.map": "/Crypto/static/js/2.09a6a007.chunk.js.map",
+    "index.html": "/Crypto/index.html",
+    "precache-manifest.e8c3cc8fc86b4cc174a4825bde152062.js": "/Crypto/precache-manifest.e8c3cc8fc86b4cc174a4825bde152062.js",
+    "service-worker.js": "/Crypto/service-worker.js",
+    "static/css/main.f4ffc48e.chunk.css.map": "/Crypto/static/css/main.f4ffc48e.chunk.css.map",
+    "static/js/2.09a6a007.chunk.js.LICENSE.txt": "/Crypto/static/js/2.09a6a007.chunk.js.LICENSE.txt",
+    "static/media/cryptomonedas.png": "/Crypto/static/media/cryptomonedas.36df2b1b.png",
+    "static/media/index.css": "/Crypto/static/media/new-zealand-topography-from-above-2441454.74644af9.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f603dc5c.js",
+    "static/js/runtime-main.b49009fc.js",
     "static/js/2.09a6a007.chunk.js",
-    "static/css/main.37c058b7.chunk.css",
-    "static/js/main.d2060b2c.chunk.js"
+    "static/css/main.f4ffc48e.chunk.css",
+    "static/js/main.b82e35dc.chunk.js"
   ]
 }
