@@ -20,6 +20,7 @@ const Boton = styled.input`
     transition:background-color .3s ease; 
 
     &:hover{
+        background-color:#84a9ac;
         cursor:pointer;
         box-shadow: 0px 15px 20px #b4c4b9;
         transform: translateY(-7px);
@@ -38,7 +39,7 @@ const Formulario = ({ setCriptomoneda, setMoneda }) => {
         { codigo: "EUR", nombre: "Euro" },
         { codigo: "GBP", nombre: "Libra Esterlina" }
     ]
-    const [moneda, SelectMoneda, setState] = useMoneda("Elige tu Moneda", "", MONEDAS);
+    const [moneda, SelectMoneda] = useMoneda("Elige tu Moneda", "", MONEDAS);
     const [criptomoneda, SelectCripto] = useCriptomoneda("Elige tu Criptomoneda", "", listaCripto);
 
     useEffect(() => {

@@ -8,6 +8,7 @@ const ResultadoDiv = styled.div`
     padding:10px;
     margin-top:20px;
     border-radius:10px;
+    max-width:90%;
 `;
 const Info = styled.p`
     font-size:18px;

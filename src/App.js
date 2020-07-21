@@ -34,9 +34,9 @@ const Heading = styled.h1`
 
   &::after{
     content:"";
-    width:100px;
+    width:200px;
     height:6px;
-    background-color:#66A2FE;
+    background-color:#c7b198;
     display: block;
   }
 `;
