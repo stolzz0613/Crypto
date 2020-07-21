@@ -11,17 +11,20 @@ const Boton = styled.input`
     font-weight:bold;
     font-size:20px;
     padding:10px;
-    background-color:#66a2fe;
+    background-color:#374955;
     border:none;
     width:100%;
     border-radius:10px;
     color:#FFF;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
     transition:background-color .3s ease; 
 
     &:hover{
-        background-color:#326AC0;
         cursor:pointer;
+        box-shadow: 0px 15px 20px #b4c4b9;
+        transform: translateY(-7px);
     }
+
 `
 
 const Formulario = ({ setCriptomoneda, setMoneda }) => {

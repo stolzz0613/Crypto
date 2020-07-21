@@ -4,7 +4,7 @@ import styled from '@emotion/styled';
 
 const Label = styled.label`
     font-family:"Bebas Neue", cursive;
-    color: #fff;
+    color: #374955;
     text-transform:uppercase;
     font-weight:bold;
     font-size:2.4rem;

@@ -2,17 +2,23 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 const ResultadoDiv = styled.div`
-    color:#FFF;
+    color:#374955;
+    background: RGBA(240,236,227,0.7);
     font-family:Arial, Helvetica, sans-serif;
+    padding:10px;
+    margin-top:20px;
+    border-radius:10px;
 `;
 const Info = styled.p`
     font-size:18px;
+    text-align:center;
     span{
         font-weight:bold;
     }
 `;
 const Precio = styled.p`
     font-size:30px;
+    text-align:center;
     span{
         font-weight:bold;
     }
@@ -28,7 +34,6 @@ const Cotizacion = ({ resultado }) => {
             <Info>Precio más bajo del día: <span>{resultado.LOWDAY}</span></Info>
             <Info>Variación últimas 24 horas: <span>{resultado.CHANGEPCT24HOUR * 100}%</span></Info>
             <Info>Última Actualización: <span>{resultado.LASTUPDATE}</span></Info>
-
         </ResultadoDiv>
     );
 }
