@@ -73,6 +73,16 @@ function App() {
       resultado={resultado}
     />
 
+  const IconComponent = (!cargando)
+    ? <Imagen
+      src={
+        !icon
+          ? imagen
+          : icon
+      }
+      alt="imagen crypto"
+    />
+    : <Spinner />
 
   return (
     <Contenedor>
@@ -84,14 +94,7 @@ function App() {
         />
       </div>
       <div>
-        <Imagen
-          src={
-            !icon
-              ? imagen
-              : icon
-          }
-          alt="imagen crypto"
-        />
+        {IconComponent}
         {componente}
       </div>
     </Contenedor>

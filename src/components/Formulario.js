@@ -18,6 +18,7 @@ const Boton = styled.input`
     color:#FFF;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
     transition:background-color .3s ease; 
+    margin-bottom:30px;
 
     &:hover{
         background-color:#84a9ac;
